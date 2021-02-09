@@ -1,0 +1,23 @@
+.item {
+  display: grid;
+  justify-content: right;
+  grid-gap: 1.5em;
+  max-width: 640px;
+  margin: 0 auto 5em;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.title {
+  margin-top: 0;
+}
+
+@media (min-width: 992px) {
+  .item {
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    max-width: none;
+  }
+}
