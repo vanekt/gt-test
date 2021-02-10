@@ -1,0 +1,6 @@
+.content {
+  height: var(--content-height);
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}

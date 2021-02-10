@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #cecece;
+}
+
+.form {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(80%, 300px));
+  border-radius: 2px;
+}
+
+.field {
+  display: grid;
+  font-size: 12px;
+  color: #4e4e4e;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}
